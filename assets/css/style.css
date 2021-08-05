@@ -9,14 +9,48 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*commmon*/
+
 .clear {
     clear: both;
 }
 
-
+.mt-8 {
+    margin-top: 8px !important;
+}
 .text-color {
     color: #fff;
 }
+.text-center {
+    text-align: center;
+}
+
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.col {
+    float: left;
+    padding: 0 8px;
+}
+
+.col-thrid {
+    width: 33.333%;
+}
+.col-half {
+    width: 50%;
+}
+.col-full {
+    width: 100%;
+}
+/*commmon*/
+
 /*
 1. vi tri
 2. kich thuoc
@@ -180,15 +214,11 @@ html {
     margin-top: 48px;
 }
 
-#content .member-item {
-    float: left;
-    width: 33.3333%;
-    text-align: center;
-}
 
 #content .member-name {
     font-size: 15px;
 }
+
 
 
 #content .member-img {
@@ -234,14 +264,10 @@ html {
 }
 
 .place-list {
-    margin: 32px -8px 0;
+    margin-top: 32px;
     padding-bottom: 48px;
 }
-.place-item {
-    float: left;
-    width: 33.333%;
-    padding: 0 8px;
-}
+
 .place-img {
     width: 100%;
     display: block;
@@ -285,9 +311,63 @@ html {
     background-color: #ccc;
 }
 
-#footer {
+.contact-content {
+    margin-top: 64px;
+}
+.contact-infor {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contact-infor i[class*="ti-"] {
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form {
+    font-size: 15px;
+}
+
+.contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
 
 }
+
+.contact-form .form-submit-btn {
+    margin-top: 15px;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    float: right;
+}
+
+
+
+.map-section img {
+    width: 100%;
+}
+#footer {
+    padding: 64px 14px;
+    text-align: center;
+    opacity: 0.6;
+    
+
+}
+
+#footer .footer-icon {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+#footer .footer-text .w3-css{
+    color: #000;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
 
 .modal {
     position: fixed;
