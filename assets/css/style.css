@@ -199,14 +199,12 @@ html {
     text-align: center;
     margin-top: 25px;
 
-
 }
 #content .about-text {
     text-align: justify;
     font-size: 15px;
     line-height: 1.4;
     margin-top: 20px;
-
 
 }
 
@@ -244,6 +242,7 @@ html {
     color: #757575;
 }
 
+
 .tickets-list .sold-out {
     background-color: #F44336;
     color: #fff;
@@ -275,6 +274,7 @@ html {
 }
 .place-img:hover{
     opacity: 0.8;
+    
 }
 .place-body {
     background-color: #fff;
